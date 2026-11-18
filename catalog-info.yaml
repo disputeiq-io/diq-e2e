@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: diq-e2e
+  description: End-to-end Playwright journeys, k6 virtual-thread benchmarks, and chaos drills
+spec:
+  type: library
+  lifecycle: experimental
+  owner: platform-team
+  system: disputeiq
